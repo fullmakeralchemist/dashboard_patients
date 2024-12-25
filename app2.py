@@ -9,7 +9,7 @@ st.set_page_config(page_title="Weather EDA dashboard", page_icon=":bar_chart:", 
 csv_directory = 'data'
 
 # List of years corresponding to the CSV files
-years = [2016, 2017, 2018, 2019, 2020]
+years = [2016, 2017] #, 2018, 2019, 2020
 
 # Initialize an empty list to store the DataFrames
 dataframes = []
